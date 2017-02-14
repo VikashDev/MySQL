@@ -1,0 +1,12 @@
+Keys
+
+Key are, a key part of a relational database
+
+They ensure ech record within a table can be uniquely identified by one or a combination of fields within the table.
+
+They help in identifying the relationship btween tables.
+
+
+Type of keys:
+
+There are three 
