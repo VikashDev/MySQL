@@ -5,7 +5,7 @@
 
 * For any help type -- help contents
 
-** Structured Query Language (SQL) 
+* Structured Query Language (SQL) 
     * Create Database
     * Use Database
     * Create Table
