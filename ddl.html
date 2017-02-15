@@ -1,0 +1,35 @@
+DDL - Data Manupulation Language
+
+> INSERT
+
+    Syntax :- insert into table_name (column1 , column2, column3) values (value1, 'value2', 'value3');
+
+    Ex:- insert into follows (fid, user_id, follower_id) values (null, 1, 12);
+
+INSERT INTO without specifying Column Name
+    The values order should be same as column
+    We dont have to leave any column.
+
+    Ex:- insert into follows values (null, 1, 12);
+
+    
+INSERT INTO with Changing order of column
+
+    Syntax :- insert into table_name (column2 , column1, column3) values (value2, 'value1', 'value3');
+
+INSERT INTO Specified Column
+
+    Syntax :- insert into table_name (column2 , column1) values (value2, 'value1');
+
+INSERT INTO Multiple rows
+
+    Syntax :- insert into table_name (column2 , column1) values (value2, 'value1'),(value3, 'value4'),(value5, 'value6'), (value7,'value8');
+
+> SELECT
+    SELECT ALL
+    Syntax : select * from table_name;
+
+    SELECT specific
+    Syntax: select name, age, roll from table_name;
+
+

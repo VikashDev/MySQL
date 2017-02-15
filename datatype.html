@@ -13,3 +13,37 @@
 
     Syntax :- column_name dec(size,p);
         Eg:- price dec(4,2);
+
+> CHAR or CHARACTER
+    It holds a fixed length string(can contains letter, numbers, and special characters). The fixed size is specified in paranthesis. It can store up to 255 character.
+
+    Syntax :- column_name char(20);
+    Ex :- name char(20);
+
+> VARCHAR
+    It holds a fixed length string(can contains letter, numbers, and special characters). The fixed size is specified in paranthesis. It can store up to 255 character.
+    Note : If we put a greater value than 255 it will be converted to a TEXT type.
+
+    Syntax :- column_name varchar(255);
+    Ex : name varchar(255);
+
+> TEXT 
+    It holds a string with a maximum length of 65,535 characters.
+    
+    Syntax :- column_name TEXT;
+    Ex :- address TEXT;
+
+> DATE 
+    Display Date value in yyyy-mm-dd format
+
+    Syntax :- column_name date;
+    Ex :- age date;
+
+> DATETIME 
+    Display DATETIME values in yyyy-mm-dd hh:mm:ss format
+    Syntax :- column_name datetime;
+
+> TIMESTAMP
+    Syntax :- column_name time;
+    Ex :- login_dt timestamp;
+
