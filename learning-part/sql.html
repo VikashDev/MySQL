@@ -1,0 +1,32 @@
+> Create Database
+    Syntax :- create database database_name;
+
+> Use Database
+    Syntax :- use database;
+
+> Create Table
+    Syntax :- create table table_name (
+        column_name1 data_type(size) [constrain],
+        column_name2 data_type(size),
+        column_name3 data_type(size),
+    );
+
+    Eg. create table student (
+        name varchar(255) not null,
+        roll int(4) primary key,
+        address varchar(255)
+    );
+
+
+
+> Describe table
+    This is used to describe your table. DESC only describes structuer of table not the information (rows) inside table. Desc is short form of describe.
+    Syntax :- desc table_name;
+
+    Eg: desc profile;
+
+
+> Show Databases/Tables
+    This commands is used to show all databases/Tables databases.
+    Syntax :- show databases;
+           :- show tables;
