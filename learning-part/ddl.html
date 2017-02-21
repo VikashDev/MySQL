@@ -3,7 +3,6 @@ DDL - Data Manupulation Language
 > INSERT
 
     Syntax :- insert into table_name (column1 , column2, column3) values (value1, 'value2', 'value3');
-
     Ex:- insert into follows (fid, user_id, follower_id) values (null, 1, 12);
 
 INSERT INTO without specifying Column Name
@@ -33,3 +32,30 @@ INSERT INTO Multiple rows
     Syntax: select name, age, roll from table_name;
 
 
+
+
+> UNIQUE KEY
+    The unique key constraints uniquely identifies each record in a database table. There can be many unique constraints per table. A unique key column can contain null values.
+
+    create table student (
+        name varchar(255) not null,
+        roll int(5) not null,
+        mobile_no int(10) unique key
+    );
+
+
+> PRIMARY KEY
+
+    The primary key constraint uniquly identifies each recordss in a database table. Primary keys must contain unique values. A primary key colume cannot conatins NULL values. Most tables should have a primary key,and each table can have one primary key.
+
+
+        create table profile (
+            id int primary key,
+            name varchar(255)
+        )
+
+        create table profile (
+            id int, 
+            name varchar(255),
+            primary key(id)
+        );

@@ -25,3 +25,29 @@
 * DDL
     * INSERT
     * SELECT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Next Update
+    * NOT NULL
+    * UNIQUE KEY 
+    * PRIMARY KEY
+    *
+    *
